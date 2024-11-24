@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editId"
+            android:hint="ID (Para Atualizar/Excluir/Buscar)"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editNome"
+            android:hint="Nome do Produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editCategoria"
+            android:hint="Categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editPreco"
+            android:hint="Preço"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editQuantidade"
+            android:hint="Quantidade"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editValidade"
+            android:hint="Validade (dd/mm/yyyy)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonCadastrar"
+            android:text="Cadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonAtualizar"
+            android:text="Atualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonExcluir"
+            android:text="Excluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonBuscar"
+            android:text="Buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonListar"
+            android:text="Listar Todos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonIrParaCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir para Cliente" />
+
+        <TextView
+            android:id="@+id/textViewResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
